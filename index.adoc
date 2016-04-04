@@ -1,0 +1,51 @@
+= Micronesia Reef Monitoring
+:awestruct-layout: base
+ifdef::awestruct[]
+:toc:
+:toc-placement: preamble
+endif::awestruct[]
+ifndef::awestruct[]
+:toc: right
+:numbered:
+:icons: font
+:idprefix:
+:idseparator: -
+:sectanchors:
+:source-highlighter: pygments
+:pygments-style: tango
+endif::awestruct[]
+:experimental:
+:mdash: &#8212;
+:language: asciidoc
+
+include::sections/intro.adoc[]
+
+
+++++
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10246202-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+++++
+
+++++
+<style>
+li.active {
+  background: aliceblue;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://micronesia-reef-monitoring.github.io/assets/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('#toc ul').addClass('nav nav-list');
+  $('body').scrollspy({ target: '#toc' });
+});
+</script>
+++++
