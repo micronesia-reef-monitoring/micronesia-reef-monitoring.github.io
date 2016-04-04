@@ -1,6 +1,16 @@
-== Micronesia Reef Monitoring
+== Preamble
 
-This organization handles, among other things, the Micronesia Ecology Database
+This site describes the repository contents available on github provided by the Micronesia Reef Monitoring (MRM) organization. MRM aims to make their software available to other organizations interested in accumulating data for their conservancy efforts.
+
+MRM contains one primary repository, the [micronesia-ecology-database](). This repository contains the code for running a data-driven web application.
+
+== Micronesia Ecology Data
+
+More to come
+
+== Local Vagrant
+
+The local vagrant repository contains a Vagrantfile and Ansible scripts which combined will run a local instance of the micronesia-ecology-database. It is also capable of using a Digital Ocean provider and deploying an instance there.
 
 == WORK IN PROGRESS
 
