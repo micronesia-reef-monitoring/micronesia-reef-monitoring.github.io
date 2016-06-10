@@ -2,11 +2,11 @@
 
 This site describes the repository contents available on github provided by the Micronesia Reef Monitoring (MRM) organization. MRM aims to make their software available to other organizations interested in accumulating data for their conservancy efforts.
 
-MRM contains one primary repository, the [micronesia-ecology-database](). This repository contains the code for running a data-driven web application.
+MRM contains one primary repository, the [micronesia-ecology-database](https://github.com/micronesia-reef-monitoring/micronesia-ecology-database). This repository contains the code for running a data-driven web application.
 
-== Micronesia Ecology Data
+== Micronesia Ecology Database
 
-More to come
+The Micronesia Ecology Database is a Django web project with applications designed to store Benthic, Macroinvertebrate, Fish, Coral, and related Metadata in one cohesive relational database.
 
 == Local Vagrant
 
